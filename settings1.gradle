@@ -1,4 +1,3 @@
-
 rootProject.name = "grpc"
 include ":grpc-core"
 include ":grpc-stub"
