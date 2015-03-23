@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.grpc.transport.netty.NettyServerStreamTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2015-03-23T01:16:22" hostname="ip-172-31-8-225" time="0.673">
+  <properties/>
+  <testcase name="duplicateWriteHeadersShouldFail" classname="io.grpc.transport.netty.NettyServerStreamTest" time="0.487"/>
+  <testcase name="closeAfterClientHalfCloseShouldSucceed" classname="io.grpc.transport.netty.NettyServerStreamTest" time="0.027"/>
+  <testcase name="writeMessageShouldSendResponse" classname="io.grpc.transport.netty.NettyServerStreamTest" time="0.043"/>
+  <testcase name="abortStreamAndNotSendStatus" classname="io.grpc.transport.netty.NettyServerStreamTest" time="0.017"/>
+  <testcase name="closeBeforeClientHalfCloseShouldSucceed" classname="io.grpc.transport.netty.NettyServerStreamTest" time="0.014"/>
+  <testcase name="abortStreamAndSendStatus" classname="io.grpc.transport.netty.NettyServerStreamTest" time="0.015"/>
+  <testcase name="closeWithErrorBeforeClientHalfCloseShouldSucceed" classname="io.grpc.transport.netty.NettyServerStreamTest" time="0.01"/>
+  <testcase name="writeHeadersShouldSendHeaders" classname="io.grpc.transport.netty.NettyServerStreamTest" time="0.011"/>
+  <testcase name="abortStreamAfterClientHalfCloseShouldCallClose" classname="io.grpc.transport.netty.NettyServerStreamTest" time="0.004"/>
+  <testcase name="inboundMessageShouldCallListener" classname="io.grpc.transport.netty.NettyServerStreamTest" time="0.015"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

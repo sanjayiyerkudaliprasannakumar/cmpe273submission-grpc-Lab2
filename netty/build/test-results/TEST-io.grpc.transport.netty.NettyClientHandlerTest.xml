@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.grpc.transport.netty.NettyClientHandlerTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2015-03-23T01:16:23" hostname="ip-172-31-8-225" time="0.383">
+  <properties/>
+  <testcase name="cancelTwiceShouldSucceed" classname="io.grpc.transport.netty.NettyClientHandlerTest" time="0.138"/>
+  <testcase name="sendFrameShouldSucceed" classname="io.grpc.transport.netty.NettyClientHandlerTest" time="0.026"/>
+  <testcase name="receivedGoAwayShouldFailQueuedStreams" classname="io.grpc.transport.netty.NettyClientHandlerTest" time="0.026"/>
+  <testcase name="inboundHeadersShouldForwardToStream" classname="io.grpc.transport.netty.NettyClientHandlerTest" time="0.025"/>
+  <testcase name="cancelBeforeStreamAssignedShouldSucceed" classname="io.grpc.transport.netty.NettyClientHandlerTest" time="0.024"/>
+  <testcase name="channelShutdownShouldFailQueuedStreams" classname="io.grpc.transport.netty.NettyClientHandlerTest" time="0.019"/>
+  <testcase name="createShouldQueueStream" classname="io.grpc.transport.netty.NettyClientHandlerTest" time="0.015"/>
+  <testcase name="inboundDataShouldForwardToStream" classname="io.grpc.transport.netty.NettyClientHandlerTest" time="0.016"/>
+  <testcase name="sendForUnknownStreamShouldFail" classname="io.grpc.transport.netty.NettyClientHandlerTest" time="0.01"/>
+  <testcase name="createStreamShouldSucceed" classname="io.grpc.transport.netty.NettyClientHandlerTest" time="0.005"/>
+  <testcase name="channelShutdownShouldFailInFlightStreams" classname="io.grpc.transport.netty.NettyClientHandlerTest" time="0.014"/>
+  <testcase name="cancelShouldSucceed" classname="io.grpc.transport.netty.NettyClientHandlerTest" time="0.017"/>
+  <testcase name="receivedGoAwayShouldFailUnknownStreams" classname="io.grpc.transport.netty.NettyClientHandlerTest" time="0.019"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

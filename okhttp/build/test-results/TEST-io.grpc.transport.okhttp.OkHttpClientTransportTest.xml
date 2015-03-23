@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.grpc.transport.okhttp.OkHttpClientTransportTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2015-03-23T01:16:27" hostname="ip-172-31-8-225" time="0.463">
+  <properties/>
+  <testcase name="readMessages" classname="io.grpc.transport.okhttp.OkHttpClientTransportTest" time="0.261"/>
+  <testcase name="cancelStream" classname="io.grpc.transport.okhttp.OkHttpClientTransportTest" time="0.005"/>
+  <testcase name="windowUpdateWithInboundFlowControl" classname="io.grpc.transport.okhttp.OkHttpClientTransportTest" time="0.018"/>
+  <testcase name="windowUpdate" classname="io.grpc.transport.okhttp.OkHttpClientTransportTest" time="0.022"/>
+  <testcase name="receiveReset" classname="io.grpc.transport.okhttp.OkHttpClientTransportTest" time="0.004"/>
+  <testcase name="invalidInboundHeadersCancelStream" classname="io.grpc.transport.okhttp.OkHttpClientTransportTest" time="0.02"/>
+  <testcase name="receivedDataForInvalidStreamShouldResetStream" classname="io.grpc.transport.okhttp.OkHttpClientTransportTest" time="0.004"/>
+  <testcase name="writeMessage" classname="io.grpc.transport.okhttp.OkHttpClientTransportTest" time="0.017"/>
+  <testcase name="readStatus" classname="io.grpc.transport.okhttp.OkHttpClientTransportTest" time="0.01"/>
+  <testcase name="streamIdExhausted" classname="io.grpc.transport.okhttp.OkHttpClientTransportTest" time="0.031"/>
+  <testcase name="receivedHeadersForInvalidStreamShouldResetStream" classname="io.grpc.transport.okhttp.OkHttpClientTransportTest" time="0.004"/>
+  <testcase name="stopNormally" classname="io.grpc.transport.okhttp.OkHttpClientTransportTest" time="0.015"/>
+  <testcase name="receiveGoAway" classname="io.grpc.transport.okhttp.OkHttpClientTransportTest" time="0.019"/>
+  <testcase name="nextFrameThrowIoException" classname="io.grpc.transport.okhttp.OkHttpClientTransportTest" time="0.02"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Mar 23, 2015 1:16:28 AM io.grpc.transport.okhttp.OkHttpClientTransport abort
+SEVERE: Transport failed
+java.io.IOException: network issue
+	at io.grpc.transport.okhttp.OkHttpClientTransportTest$MockFrameReader.nextFrame(OkHttpClientTransportTest.java:501)
+	at io.grpc.transport.okhttp.OkHttpClientTransport$ClientFrameHandler.run(OkHttpClientTransport.java:360)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+]]></system-err>
+</testsuite>

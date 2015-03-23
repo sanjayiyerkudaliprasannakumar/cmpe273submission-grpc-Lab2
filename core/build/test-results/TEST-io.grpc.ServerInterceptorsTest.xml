@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.grpc.ServerInterceptorsTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2015-03-23T00:37:29" hostname="ip-172-31-8-225" time="0.144">
+  <properties/>
+  <testcase name="npeForNullInterceptorList" classname="io.grpc.ServerInterceptorsTest" time="0.051"/>
+  <testcase name="ordered" classname="io.grpc.ServerInterceptorsTest" time="0.009"/>
+  <testcase name="callNextTwice" classname="io.grpc.ServerInterceptorsTest" time="0.003"/>
+  <testcase name="argumentsPassed" classname="io.grpc.ServerInterceptorsTest" time="0.008"/>
+  <testcase name="noop" classname="io.grpc.ServerInterceptorsTest" time="0.002"/>
+  <testcase name="npeForNullServiceDefinition" classname="io.grpc.ServerInterceptorsTest" time="0.006"/>
+  <testcase name="multipleInvocationsOfHandler" classname="io.grpc.ServerInterceptorsTest" time="0.042"/>
+  <testcase name="correctHandlerCalled" classname="io.grpc.ServerInterceptorsTest" time="0.004"/>
+  <testcase name="npeForNullInterceptor" classname="io.grpc.ServerInterceptorsTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
